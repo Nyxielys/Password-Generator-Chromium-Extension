@@ -1,1 +1,2 @@
-# Password-Generator-Chromium-Extension-
+# Password Generator (Chromium Extension)
+
