@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+
+    <!-- Title -->
+    <h1 id="title">Password Generator</h1>
+    <p>Create a password using the rules you want.</p>
+
+    <!--  Generated Password -->
+    <div id="password">
+        <textarea name="generated_password" id="password_area" placeholder="Awaiting password creation" rows="1"
+            disabled></textarea>
+        <button id="copy_password">Copy</button>
+    </div>
+
+    <!-- Checkbox -->
+    <div id="checkbox_row">
+        <!-- Uppercase -->
+        <div id="checkbox">
+            <label>
+                <input type="checkbox" id="uppercase" name="uppercase" value="true" checked=""true />
+                Allow uppercase letters</label>
+        </div>
+        <!-- Lowercase -->
+        <div id="checkbox">
+            <label>
+                <input type="checkbox" id="lowercase" name="lowercase" value="true" />
+                Allow lowercase letters</label>
+        </div>
+    </div>
+    <div id="checkbox_row">
+        <!-- Numbers -->
+        <div id="checkbox">
+            <label>
+                <input type="checkbox" id="numbers" name="numbers" value="true" checked="true" />
+                Allow numbers</label>
+        </div>
+        <!-- Symbols -->
+        <div id="checkbox">
+            <label>
+                <input type="checkbox" id="symbols" name="symbols" value="true" />
+                Allow symbols</label>
+        </div>
+    </div>
+
+    <!-- Slider -->
+    <div id="ch_num_slider">
+        <div id="slider_box">
+            <label for="ch_num">Password Length</label>
+            <input id="ch_num" type="range" min="1" max="30" value="15">
+        </div>
+        <div id="slider_value">
+            <p><span id="sliderValue">0</span></p>
+        </div>
+    </div>
+
+    <!-- Generation Button -->
+    <button id="generate_password">Generate password</button>
+
+</body>
+
+</html>
