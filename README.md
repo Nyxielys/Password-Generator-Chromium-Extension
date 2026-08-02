@@ -27,3 +27,5 @@ You can now click on it to use it.
 ![Extension](images/Extension.png)
 
 You are free to modify the extension as you wish. The original extension might receive updates in the future.
+
+My Discord Server: https://discord.gg/2x9juZp9VX
